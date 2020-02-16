@@ -326,7 +326,7 @@ library(devtools)
 find_rtools()
 
 
-install.packages("RColorBrewer")
+#install.packages("RColorBrewer")
 
 library(RColorBrewer)
 
@@ -348,7 +348,7 @@ hist(VADeaths,col=brewer.pal(8,"Greys"),main="Greys 8 colors")
 hist(VADeaths,col=brewer.pal(8,"Greens"),main="Greens 8 colors")
 
 #Let us do some map visualizations
-install.packages("devtools")
+#install.packages("devtools")
 devtools::install_github("rstudio/leaflet")
 
 
